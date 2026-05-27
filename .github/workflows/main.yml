@@ -28,11 +28,11 @@ jobs:
             cd ~
 
             echo "🧹 Cleaning old files..."
-            sudo rm -rf reppo
+            sudo rm -rf rep-3
             echo "📦 Cloning repo..."
             git clone https://github.com/Titusjo18/rep-3.git
 
-            cd reppo/backend
+            cd rep-3/backend
 
             echo "🔧 Installing Node.js if not present..."
             if ! command -v node > /dev/null; then
